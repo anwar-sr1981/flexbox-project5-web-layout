@@ -102,8 +102,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
+  font-family: 'Wallpoet', cursive;  padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
@@ -112,7 +111,7 @@ body {
 header,
 footer {
   align-items: center;
-  background-color: #222;
+  background: url(../img/pexels-marieke-schönfeld-2514035.jpg) no-repeat center center fixed;
   display: flex;
   height: 80px;
   justify-content: center;
@@ -121,8 +120,9 @@ footer {
 
 main {
   align-items: center;
-  background-color: #ccc;
+  background: url(../img/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg) repeat center center fixed;
   display: flex;
+  text-shadow: 2px 2px #007adf;
   height: 250px;
   justify-content: center;
   width: 100%;
@@ -240,7 +240,8 @@ main {
       /* set your flex value to 1 50% */
   }
 
-  #div-3 {
+  #div-3, 
+  #div-4 {
     /* set your flex value to 1 100% */
   }
 }
